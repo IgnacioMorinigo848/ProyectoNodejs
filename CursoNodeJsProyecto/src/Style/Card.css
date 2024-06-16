@@ -1,0 +1,98 @@
+.card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.contenedor-card{
+    display: flex;
+    justify-content: center;
+    width: 24%;
+    height: auto;
+    margin: 20px 4px 20px 4px;
+}
+
+.card-body{
+    padding: 0px;
+    margin: 0px;
+    height: 150px;
+}
+
+.card-body .card-title{
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.card-body .card-text{
+    padding: 0px;
+    margin: 0px;
+}
+
+.opcion-lista{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 10px 0px;
+    width: 100%;
+    gap: 30px;
+}
+
+.opcion{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    background-color: #d1cfcfd7;
+    border-radius: 50px;
+}
+
+.opcion:hover{
+    background-color: #acabab;
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+    .contenedor-card{
+        width: 32%;
+        padding: 0px;
+        margin: 20px 0px 10px 0px;
+    }
+    .opcion-lista{
+        padding-top: 100px;
+    }
+}
+@media (min-width: 350px) and (max-width: 600px){
+    .contenedor-card{
+        width: 48%;
+        padding: 0px;
+        margin: 20px 2px 10px 2px;
+    }
+
+    .card-body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .card-body .card-title{
+        font-size: 16px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+    .card-body .card-text{
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .card{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .opcion-lista{
+        padding-top: 30px;
+    }
+
+    .opcion{
+        padding: 5px;
+    }
+}

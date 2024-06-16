@@ -1,0 +1,42 @@
+.contenedor-profile{
+    width: 100%;
+    box-shadow: inset 5px 5px 20px rgba(94, 93, 93, 0.5); 
+    background-color: #222020 !important;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.user p{
+    font-size: 25px;
+    color:rgb(235, 234, 234);
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 234, 234);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(219, 216, 216, 0.5), -2px -2px 5px rgba(48, 47, 47, 0.5);
+
+}
+
+.contenedor-all-card{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedor-card-profile{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo-card-profile{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(219, 216, 216, 0.5), -2px -2px 5px rgba(48, 47, 47, 0.5);
+
+    
+}

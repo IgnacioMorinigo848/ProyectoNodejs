@@ -1,0 +1,26 @@
+.contenedor-lists{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.contenedor-film{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contenedor-titulo h1{
+    color: #000;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(71, 71, 71, 0.5), -2px -2px 5px rgba(48, 47, 47, 0.5);
+}
+

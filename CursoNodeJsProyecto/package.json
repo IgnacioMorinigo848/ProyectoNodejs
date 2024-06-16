@@ -1,0 +1,66 @@
+{
+    "name": "tmdb",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.5.2",
+        "@fortawesome/free-brands-svg-icons": "^6.5.2",
+        "@fortawesome/free-regular-svg-icons": "^6.5.2",
+        "@fortawesome/free-solid-svg-icons": "^6.5.2",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@popperjs/core": "^2.11.6",
+        "@reduxjs/toolkit": "^1.8.3",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.6.8",
+        "bootstrap": "^5.3.3",
+        "concurrently": "^7.4.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "firebase": "^9.9.3",
+        "install": "^0.13.0",
+        "jsonwebtoken": "^8.5.1",
+        "nodemon": "^2.0.19",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.0.2",
+        "react-router": "^6.3.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "^5.0.1",
+        "react-slick": "^0.30.2",
+        "react-spinners": "^0.13.8",
+        "redux": "^4.2.0",
+        "redux-logger": "^3.0.6",
+        "sequelize": "^6.21.3",
+        "slick-carousel": "^1.8.1",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "concurrently 'npm run server' 'npm run client'",
+        "server": "nodemon api/server",
+        "client": "react-scripts start"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "typescript": "^4.9.5"
+    }
+}
